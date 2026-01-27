@@ -1,16 +1,7 @@
-# Core scientific stack
 numpy
 pandas
 scipy
-
-# Image I/O & processing
 tifffile
 scikit-image
 openslide-python
-
-# Progress
 tqdm
-
-# Deep learning (lock to safe range)
-tensorflow>=2.10,<2.16
-deepcell>=0.12.6
