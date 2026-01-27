@@ -1,3 +1,5 @@
+# For reference / IDE / lightweight local dev ONLY
+# Full runtime environment is defined in Dockerfile
 numpy
 pandas
 scipy
