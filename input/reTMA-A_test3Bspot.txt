@@ -1,0 +1,4 @@
+Image	Object ID	Object type	Name	Classification	TMA Core	Parent	Missing core	Centroid X µm	Centroid Y µm
+20250107 RE-TMA A_Scan1.qptiff - resolution #1	fe90f8a1-fb7e-454b-a788-5be0a2c0db08	TMA core	H-1		H-1	Root object (Image)	FALSE	845.53	5446.2
+20250107 RE-TMA A_Scan1.qptiff - resolution #1	1098b842-8382-41ad-adeb-4b7c00855e7c	TMA core	G-2		G-2	Root object (Image)	FALSE	3257.8	8206.6
+20250107 RE-TMA A_Scan1.qptiff - resolution #1	b2b0c5a0-af48-41eb-ab17-9f4583529c39	TMA core	B-8		B-8	Root object (Image)	FALSE	14150.2	24968
