@@ -1,9 +1,28 @@
-# For reference / IDE / lightweight local dev ONLY
-# Full runtime environment is defined in Dockerfile
-numpy
+# core
+numpy==1.22.4
 pandas
-scipy
 tifffile
+tqdm
 scikit-image
 openslide-python
-tqdm
+
+# TF 2.8 era (MUST pin)
+protobuf==3.19.6
+tensorflow==2.8.4
+keras==2.8.0
+tensorboard==2.8.0
+tensorflow-estimator==2.8.0
+
+# deepcell stack (MUST pin)
+deepcell==0.12.10
+tensorflow-addons==0.16.1
+spektral==1.0.4
+scipy==1.8.1
+opencv-python-headless==4.5.4.60
+pydot==1.4.2
+scikit-learn
+networkx
+matplotlib
+
+# other
+imagecodecs
