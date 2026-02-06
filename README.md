@@ -1,5 +1,7 @@
 ## System Dependencies (Ubuntu 20.04 / 22.04)
 
+### 1. System dependencies (Ubuntu)
+
 Before creating the Python virtual environment, please install:
 
 ```bash
@@ -16,3 +18,19 @@ sudo apt install -y \
   libsm6 \
   libxext6 \
   libxrender1
+
+### 2. Create virtual environment
+
+```bash
+python3.10 -m venv .venv
+source .venv/bin/activate
+
+### Upgrade Python build tools (recommended)
+
+```bash
+pip install -U pip setuptools wheel
+
+### 3. Install Python dependencies
+
+```bash
+pip install -r requirements.txt
